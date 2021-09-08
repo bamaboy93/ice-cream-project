@@ -6,7 +6,6 @@
   padding-bottom: 50px;
   z-index: 1;
   margin: 0 auto;
-  max-width: 1600px;
 
   @media screen and(min-width:$min-tablet-width) {
     padding-top: 130px;
@@ -59,12 +58,15 @@
 .about__wrapper:after {
   content: '';
   display: block;
+  position: absolute;
+  max-width: 1600px;
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+
+  top: 50%;
+  left: 50%;
   z-index: -1;
+  transform: translate(-50%, -50%);
 
   background-image: url(..//images/about/mobilebg.png);
   background-repeat: no-repeat;
