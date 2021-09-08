@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Alex-Melnik94.github.io/IceCream-by-Njeen",
+  "homepage": "https://bamaboy93.github.io/ice-cream-project",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url /IceCream-by-Njeen/",
+    "predeploy": "npm run build -- --public-url /ice-cream-project/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
